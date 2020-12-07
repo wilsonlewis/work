@@ -1,3 +1,3 @@
-export const log = (...args) => {
+export const log = (...args: any[]) => {
   return console.log(...args)
 }
